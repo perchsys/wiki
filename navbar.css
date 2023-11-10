@@ -1,0 +1,112 @@
+
+.navbar {
+  background-color: #e0e0e0;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(3, 3, 3, 0.1);
+}
+
+.navbar-nav {
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d6d9db;
+}
+.form-inline {
+  margin-left: 20px;
+}
+
+.form-control {
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.btn-navbar {
+  border: none;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.btn-navbar:hover {
+  color: #dee1e4;
+}
+.logo{
+  display: block;
+}
+.dropdown-toggle {
+  background-color: #fdfdfd;
+  color: #050505;
+  border: none;
+  font-size: larger;
+ font-weight: 900;
+  margin-left: 170px;
+}
+
+/* Style the dropdown toggle button on hover */
+.dropdown-toggle:hover {
+  background-color: #ccc6c6;
+  color: #050505;
+  right: 0;
+}
+
+/* Style the dropdown menu background */
+.dropdown-menu {
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+/* Style the dropdown menu items */
+.dropdown-menu .dropdown-item {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Style the dropdown menu items on hover */
+.dropdown-item:hover {
+  background-color: #ebebeb;
+  color: #000000;
+}
+.image {
+  width: 100%;
+  height: auto;
+  
+  /* Add more styles as needed */
+}
+/* For screens up to 992 pixels, adjust the margin as needed */
+@media (max-width: 992px) {
+.dropdown-toggle {
+  position: absolute;
+  top: 40px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the margin or positioning as needed */
+}
+
+/* Add more styles to customize the dropdown's appearance at this screen width if necessary */
+}
+
+/* For screens above 992 pixels, position the dropdown at the right corner */
+@media (min-width: 993px) {
+.dropdown {
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+}
+
+/* Add more styles to customize the dropdown's appearance at this screen width if necessary */
+}
